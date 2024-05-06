@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.header img {
+    max-width: 150px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.players-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.players-table th, .players-table td {
+    padding: 8px;
+    text-align: left;
+}
+
+.players-table th {
+    background-color: #f2f2f2;
+}
+
+.players-table td:nth-child(2) {
+    width: 1%; /* Let the browser determine the width based on content */
+}
+
+.players-table td:nth-child(3) {
+    width: 1%; /* Let the browser determine the width based on content */
+    max-width: 66%; /* Set maximum width to two-thirds */
+    white-space: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis for truncated text */
+}

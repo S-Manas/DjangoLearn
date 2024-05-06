@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Real Madrid Players</title>
+    <link href={%static '/css/main.css' %} rel="stylesheet" type="text/css">	
+    
+</head>
+<body>
+    <div class="header">
+        <img src="{% static 'images/rmLogo.jpeg'%}" alt="Real Madrid Logo">
+        <h1>Real Madrid Players</h1>
+    </div>
+    <table class="players-table">
+        <tr>
+            <th>Player</th>
+            <th>Position</th>
+            <th>Salary</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/vini.jpeg'%}" alt="Vinicius Jr"></td>
+            <td>Forward</td>
+            <td>€ 480,769 per week</td>
+            <td>Vinícius José Paixão de Oliveira Júnior (born 12 July 2000), commonly known as Vinícius Júnior or Vini Jr., is a Brazilian professional footballer who plays as a forward for La Liga club Real Madrid and the Brazil national team. Considered one of the best players in the world, he is known for his pace, finishing, and dribbling ability.</td>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/jude.jpeg'%}" alt="Jude Bellingham"></td>
+            <td>Midfielder</td>
+            <td>€ 480,769 per week</td>
+            <td>Jude Victor William Bellingham (born 29 June 2003) is an English professional footballer who plays as a midfielder for La Liga club Real Madrid and the England national team.</td>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/kroos.jpeg'%}" alt="Toni Kroos"></td>
+            <td>Midfielder</td>
+            <td>£ 468,846 per week</td>
+            <td>Toni Kroos (born 4 January 1990) is a German professional footballer who plays as a midfielder for La Liga club Real Madrid and the Germany national team. Widely regarded as one of the greatest midfielders of all time, he is known for his vision, passing, creativity, crossing and set-piece ability.</td>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/modric.jpeg'%}" alt="Luka Modric"></td>
+            <td>Midfielder</td>
+            <td>€ 420,769 per week</td>
+            <td>Luka Modrić (born 9 September 1985) is a Croatian professional footballer who plays as a midfielder for La Liga club Real Madrid and captains the Croatia national team. He plays mainly as a central midfielder, but can also play as an attacking midfielder or as a defensive midfielder. He is widely regarded as one of the greatest midfielders of all time, and as the greatest Croatian footballer ever. </td>
+        </tr>
+    </table>
+</body>
+</html>
